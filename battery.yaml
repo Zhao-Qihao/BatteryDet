@@ -1,0 +1,8 @@
+path: /home/itachi/Desktop/images1016all
+train: train/images
+val: val/images
+test: 
+
+
+names:
+ 0: battery
