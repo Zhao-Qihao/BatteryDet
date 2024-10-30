@@ -37,7 +37,7 @@ bottom_right = (int(bottom_right_ori[0] * ratio_w), int(bottom_right_ori[1] * ra
 model = YOLO("./models/battery_s640_1030.pt")
 
 # Open the video file
-video_path = "video/Video_20241025103438462_clipped.avi"
+video_path = "video/truck_battery.avi"
 cap = cv2.VideoCapture(video_path)
 
 # 处理视频帧
